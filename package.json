@@ -3,17 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build:css": "postcss ./src/tailwind.css -o ./public/css/main.css",
-    "build": "NODE_ENV=production postcss ./src/tailwind.css -o ./public/css/main.css"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@tailwindcss/jit": "^0.1.18",
-    "autoprefixer": "^10.4.19",
-    "postcss-cli": "^11.0.0",
-    "tailwindcss": "^3.4.3"
+    "sass": "^1.77.2"
   }
 }
